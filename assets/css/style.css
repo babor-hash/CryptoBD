@@ -257,7 +257,7 @@ body.active { overflow: hidden; }
   font-size: var(--fs-8);
   font-weight: var(--fw-700);
   padding: 4px 8px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .badge.red { background-color: var(--presian-red); }
@@ -913,9 +913,19 @@ address.footer-contact-link { max-width: 30ch; }
   .hero-banner {
     max-width: max-content;
     margin-inline: auto;
+    img {
+      border-radius: 80px;
+      background: blanchedalmond;
+      opacity: 1;
+    }
   }
 
+.do-top {
 
+  margin-bottom: 60px;
+  font-style: oblique;
+  font-size: x-large;
+}
 
   /**
    * TREND
